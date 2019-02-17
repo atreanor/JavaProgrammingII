@@ -36,6 +36,9 @@ public class SubtractionTest {
 			System.out.println("Incorrect! " + n1 + " - " + n2 + " = " + answer);
 		}
 		
+		// close input object
+		input.close();
+		
 	}
 
 }
