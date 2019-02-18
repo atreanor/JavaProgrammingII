@@ -21,7 +21,7 @@ public class ComputeAreaCircle {
 		
 		// if radius >= 0, calculate area & print output
 		if (radius >= 0) {
-			final double area = Math.pow(radius, 2) * Math.PI;
+			double area = Math.pow(radius, 2) * Math.PI;
 			System.out.println("The area is : " + area);
 		} // otherwise, display suitable message
 		else {
