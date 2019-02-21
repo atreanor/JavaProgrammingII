@@ -15,6 +15,7 @@ public class VolumeCalc {
 		double radius = input.nextDouble();
 		double length = input.nextDouble();
 		
+		double area = 
 		
 	}
 
