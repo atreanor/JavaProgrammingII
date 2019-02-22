@@ -4,6 +4,7 @@ import java.util.Scanner;
 /*
  * program reads radius & length of cyclinder from console & computes area
  */
+
 public class VolumeCalc {
 	// main method
 	public static void main(String[] args) {
@@ -15,8 +16,15 @@ public class VolumeCalc {
 		double radius = input.nextDouble();
 		double length = input.nextDouble();
 		
-		double area = 
+		// calculate area
+		double area = Math.PI * Math.pow(radius, 2);
+		double volume = area * length;
 		
+		// Print results to console
+		System.out.print("The area is: " + area + "\nThe volume is: " + volume);
+		
+		// close Scanner input object
+		input.close();
 	}
 
 }
