@@ -2,7 +2,7 @@ package practical_01;
 // import Scanner class
 import java.util.Scanner;
 /*
- * program reads radius & length of cyclinder from console & computes area
+ * program reads radius & length of cylinder from console & computes area & volume
  */
 
 public class VolumeCalc {
